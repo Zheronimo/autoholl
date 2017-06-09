@@ -38,3 +38,30 @@
 	font-style: normal;
 	font-weight: normal;
 }
+@font-face {
+	font-family: 'BebasRegular';
+	src: url('../fonts/Bebas/BebasRegular/BebasRegular.eot');
+	src: url('../fonts/Bebas/BebasRegular/BebasRegular.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/Bebas/BebasRegular/BebasRegular.woff') format('woff'),
+		 url('../fonts/Bebas/BebasRegular/BebasRegular.ttf') format('truetype');
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: 'BebasBold';
+	src: url('../fonts/Bebas/BebasBold/BebasBold.eot');
+	src: url('../fonts/Bebas/BebasBold/BebasBold.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/Bebas/BebasBold/BebasBold.woff') format('woff'),
+		 url('../fonts/Bebas/BebasBold/BebasBold.ttf') format('truetype');
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: 'RobotoCondensed';
+	src: url('../fonts/RobotoCondensed/RobotoCondensedRegular.eot');
+	src: url('../fonts/RobotoCondensed/RobotoCondensedRegular.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/RobotoCondensed/RobotoCondensedRegular.woff') format('woff'),
+		 url('../fonts/RobotoCondensed/RobotoCondensedRegular.ttf') format('truetype');
+	font-style: normal;
+	font-weight: normal;
+}

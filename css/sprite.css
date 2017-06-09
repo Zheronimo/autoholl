@@ -1,0 +1,89 @@
+.sprite {
+    background-image: url('../img/icon/spritesheet.png');
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+.sprite-about {
+    width: 21px;
+    height: 20px;
+    background-position: -5px -5px;
+}
+
+.sprite-arrow-red {
+    width: 12px;
+    height: 8px;
+    background-position: -36px -5px;
+}
+
+.sprite-arrow-white {
+    width: 12px;
+    height: 8px;
+    background-position: -58px -5px;
+}
+
+.sprite-avto {
+    width: 90px;
+    height: 61px;
+    background-position: -80px -5px;
+}
+
+.sprite-contakts {
+    width: 15px;
+    height: 25px;
+    background-position: -180px -5px;
+}
+
+.sprite-diagnost {
+    width: 65px;
+    height: 58px;
+    background-position: -5px -76px;
+}
+
+.sprite-home {
+    width: 20px;
+    height: 20px;
+    background-position: -80px -76px;
+}
+
+.sprite-locksmith {
+    width: 60px;
+    height: 62px;
+    background-position: -110px -76px;
+}
+
+.sprite-mechanic {
+    width: 73px;
+    height: 73px;
+    background-position: -205px -5px;
+}
+
+.sprite-partners {
+    width: 21px;
+    height: 17px;
+    background-position: -180px -88px;
+}
+
+.sprite-plastic {
+    width: 79px;
+    height: 51px;
+    background-position: -180px -115px;
+}
+
+.sprite-price {
+    width: 12px;
+    height: 18px;
+    background-position: -5px -176px;
+}
+
+.sprite-service {
+    width: 103px;
+    height: 29px;
+    background-position: -27px -148px;
+}
+
+.sprite-work {
+    width: 22px;
+    height: 20px;
+    background-position: -140px -176px;
+}
