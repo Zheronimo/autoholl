@@ -1,4 +1,24 @@
 $(document).ready(function() {
+	$('.submenu').each(function() {
+		$(this).after("<div class='triangle'></div>");
+	});
+	$('.mc_toggle').click(function() {
+		if ($(this).parent().children('ul').is(':visible')) {
+			$(this).parent().children('.submenu').slideUp();
+			$(this).parent().children('.triangle').hide();
+		}else {
+			$('.submenu, .triangle').hide();
+			$('.mc_item_wrap').removeClass('active');
+			$(this).parent().parent().addClass('active');
+			$(this).parent().children('.submenu').slideDown();
+			$(this).parent().children('.triangle').show();
+		}
+		// $('.mc_item_wrap').removeClass('active');
+		// $('.submenu, .triangle').hide();
+		// $(this).parent().parent().addClass('active');
+		// $(this).parent().children('.submenu').slideToggle();
+		// $(this).parent().children('.triangle').slideToggle();
+	});
 
 	//Цели для Яндекс.Метрики и Google Analytics
 	$(".count_element").on("click", (function() {
@@ -18,7 +38,7 @@ $(document).ready(function() {
 	//equalheight - одинаковая высота колонок
 	//Пример списка элементов:
 	//var eqElement = ".cat_container > div, .home_news > div"
-	var eqElement = ".element"
+	var eqElement = ".about_item"
 	$(window).load(function(){equalheight(eqElement);}).resize(function(){equalheight(eqElement);});
 
 	//Masked Input Plugin
