@@ -33,25 +33,25 @@
 	<link rel="stylesheet" href="css/main.css" />
 	<link rel="stylesheet" href="css/media.css" />
 </head>
-<body>
-	<header>
+<body class="ishome">
+	<header class="main_header">
 		<div class="top_line">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-4">
-						<div class="top_addr">
-							<strong>Москва</strong>
-							<a class="fancybox" href="#map">ул.Верейская 29,  ст. 35</a>
-						</div>
-					</div>
-					<div class="col-md-4">
+					<div class="col-md-4 col-md-push-4 col-sm-4 col-sm-push-4 col-xs-4">
 						<div class="logo_wrap">
 							<a href="#" class="logo">
 								<img src="img/logo.png" alt="Автосервис">
 							</a>
 						</div>
 					</div>
-					<div class="col-md-4">
+					<div class="col-md-4 col-md-pull-4 col-sm-4 col-sm-pull-4 col-xs-8">
+						<div class="top_addr">
+							<strong>Москва</strong>
+							<a class="fancybox" href="#map">ул.Верейская 29,  ст. 35</a>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-4 col-xs-8 taddr_right">
 						<div class="top_addr ta-right">
 							<strong>+7 (499) <span>391-71-53</span></strong>
 							<a class="fancybox" href="#callback">заказать обратный звонок</a>
@@ -82,7 +82,7 @@
 	<nav class="top_menu">
 		<div class="container">
 			<div class="row">
-				<div class="menu col-md-9">
+				<div class="menu col-md-9 col-sm-8">
 					<ul>
 						<li class="active"><a href="#"><i class="sprite sprite-home"></i>Главная</a></li>
 						<li><a href="#"><i class="sprite sprite-about"></i>О нас</a></li>
@@ -92,7 +92,7 @@
 						<li><a href="#"><i class="sprite sprite-contakts"></i>Контакты</a></li>
 					</ul>
 				</div>
-				<div class="guarantee col-md-3">
+				<div class="guarantee col-md-3 col-sm-4">
 					<div class="w_left"><span>1</span> год</div>
 					<div class="w_right">Гарантия<br>на все работы</div>
 				</div>
@@ -283,7 +283,7 @@
 		<section class="about">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-4">
+					<div class="col-md-4 col-sm-6">
 						<div class="about_item">
 							<a href="img/about_img1.jpg" class="fancybox" data-fancybox-group="group">
 								<img src="img/about_img1.jpg" alt="антикоррозийная обработка">
@@ -291,7 +291,7 @@
 							</a>
 						</div>
 					</div>
-					<div class="col-md-4">
+					<div class="col-md-4 col-sm-6">
 						<div class="about_item">
 							<a href="img/about_img2.jpg" class="fancybox" data-fancybox-group="group">
 								<img src="img/about_img2.jpg" alt="абразивная полировка">
@@ -299,7 +299,7 @@
 							</a>
 						</div>
 					</div>
-					<div class="col-md-4">
+					<div class="col-md-4 col-sm-6">
 						<div class="about_item">
 							<a href="img/about_img3.jpg" class="fancybox" data-fancybox-group="group">
 								<img src="img/about_img3.jpg" alt="локальный ремонт бамперов">
@@ -307,7 +307,7 @@
 							</a>
 						</div>
 					</div>
-					<div class="col-md-4">
+					<div class="col-md-4 col-sm-6">
 						<div class="about_item">
 							<a href="img/about_img4.jpg" class="fancybox" data-fancybox-group="group">
 								<img src="img/about_img4.jpg" alt="приобретенный подержанный автомобиль">
@@ -315,7 +315,7 @@
 							</a>
 						</div>
 					</div>
-					<div class="col-md-4">
+					<div class="col-md-4 col-sm-6">
 						<div class="about_item">
 							<a href="img/about_img5.jpg" class="fancybox" data-fancybox-group="group">
 								<img src="img/about_img5.jpg" alt="кузовной ремонт">
@@ -323,7 +323,7 @@
 							</a>
 						</div>
 					</div>
-					<div class="col-md-4">
+					<div class="col-md-4 col-sm-6">
 						<div class="about_item">
 							<a href="img/about_img6.jpg" class="fancybox" data-fancybox-group="group">
 								<img src="img/about_img6.jpg" alt="деформации кузова">
@@ -338,12 +338,12 @@
 	<section class="s_bottom">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-9">
+				<div class="col-md-9 col-sm-8">
 					<div class="sb_header">
 						<h2>Все виды работ по ремонту авто</h2>
 					</div>
 				</div>
-				<div class="col-md-3">
+				<div class="col-md-3 col-sm-4">
 					<div class="sb_header button_cont">
 						<a href="callback" class="button sb_but">Оставить заявку</a>
 					</div>
@@ -385,9 +385,6 @@
 			</div>
 		</div>
 	</footer>
-
-
-
 
 
 	<div class="hidden"></div>
