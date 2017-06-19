@@ -108,7 +108,7 @@
 		font-size: 55px;
 		margin-top: 16%;
 	}
-	.top_menu ul {
+	.top_menu .menu ul {
 		display: none;
 
 	}
@@ -136,6 +136,20 @@
 	{
     	text-align: left;
 	}
+	.dropdown {
+		display: block;
+		margin-left: 20px;
+		float: left;
+	}
+	.dropdown_list {
+		padding: 0;
+	}
+
+	.guarantee {
+		float: right;
+		margin-right: 20px;
+	}
+
 }
 
 
@@ -149,6 +163,8 @@
 		margin-left: -60px;
 		margin-top: -35px;
 	}
+	.top_addr strong {
+		font-size: 28px;
 	.buttons_top .button {
 		background-image: none;
 		padding-left: 20px;
@@ -180,6 +196,15 @@
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
+	.top_addr strong {
+		font-size: 25px;
+	}
+	.dropdown {
+		margin-left: 10px;
+	}
+	.guarantee {
+		margin-right: 10px;
+	}
 
 }
 

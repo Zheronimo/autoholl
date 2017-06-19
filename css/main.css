@@ -299,6 +299,64 @@ header .button
     vertical-align: top;
 }
 
+.dropdown {
+    display: none;
+}
+
+.dropdown_list,
+.sub_list {
+    list-style: none;
+}
+.dropdown_list {
+    margin: 5px 0 0 0;
+}
+.dropdown_item .button {
+    font-size: 20px;
+    display: block;
+    padding: 0 30px 0 30px;
+}
+
+.dropdown_item:hover .sub_list{
+    display: block;
+}
+.sub_list {
+    width: 400%;
+    display: none;
+
+    padding-left: 0;
+    
+    position: absolute;
+    top: 100%;
+    
+    z-index: 1;
+    background-color: #212121;
+}
+
+.sub_list .sub_item {
+    border-bottom: 1px solid #353535;
+}
+
+.sub_list .sub_item:last-child {
+    border-bottom: none;
+}
+.sub_list .sub_item:hover {
+    background-color: #353535;
+}
+
+.sub_item a {
+
+    font-size: 20px;
+    line-height: 42px;
+    
+    display: block;
+
+    color: #fff;
+}
+
+
+
+
+
 /*======================Main_Cats========================*/
 .main_cats
 {
@@ -446,7 +504,7 @@ header .button
 {
     position: absolute;
     z-index: 10;
-    top: 110%;
+    margin-top: 19px;
     left: 0;
 
     display: none;
